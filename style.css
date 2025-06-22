@@ -1,0 +1,88 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #111;
+  color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: #1e1e1e;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #444;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.password-box {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.password-box input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  background: #2d2d2d;
+  color: #0f0;
+  border-radius: 8px 0 0 8px;
+}
+
+.password-box button {
+  background: #0f0;
+  color: #000;
+  border: none;
+  padding: 10px;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+}
+
+.options {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.options label {
+  display: block;
+  margin: 10px 0;
+}
+
+.generate-btn {
+  background: #0f0;
+  color: #000;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.strength-meter {
+  margin-top: -10px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+#strengthBar {
+  height: 8px;
+  width: 100%;
+  background: #555;
+  border-radius: 4px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  transition: background 0.3s, width 0.3s;
+}
+
+#strengthText {
+  font-size: 14px;
+}
